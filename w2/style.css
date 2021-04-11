@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'montserratblack';
+    src: url('montserrat-black-webfont.woff2') format('woff2'),
+         url('montserrat-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h2 {
+
+    color: teal;
+
+    font-family: montserratblack;
+
+
+    
+}
+
+@font-face {
+    font-family:"Body";
+    src: url(w2\fonts\Montserrat-Black.ttf);
+}
+
+body {
+
+    color: honeydew;
+
+    background: rgb(72,40,83);
+    background: linear-gradient(41deg, rgba(72,40,83,1) 48%, rgba(1,6,8,1) 100%);
+
+}
+
+h1{
+    color: teal;
+
+    font-size: 60px;
+
+    font-family: fantasy;
+}
+
+#nav{
+
+    text-align: center;
+}
+
+
+a:link {
+
+    color: salmon;
+
+    padding:20px;
+
+    display:inline-block;
+
+}
+
+a:visited {
+
+    color: salmon;
+
+    padding:20px;
+
+    display:inline-block;
+
+
+}
+
+a:hover {
+
+    color:rgb(206, 88, 75);
+
+    padding:20px;
+
+    display:inline-block;
+}
+
+.hide
+{
+    display:none;
+}
+
+
+
+hr{
+    border: double;
+
+    border-color: black;
+
+}
+
+
+.body
+{
+
+    font-family: monospace;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+
+}
+
+#ed
+{
+
+    font-family: monospace;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+
+    
+}
+
+
+#hobbies
+{
+
+    font-family: monospace;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+
+    
+}
+
+
