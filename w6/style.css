@@ -1,0 +1,315 @@
+@charset "UTF-8";
+
+
+html, body{
+
+    height:100vh;
+    margin:0;
+    display:grid;
+    
+
+}
+
+body{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header{
+
+
+
+    background-color: #505050;
+
+    color: white;
+
+    word-spacing: 10px;
+
+    width: 100%;
+
+    
+}
+
+
+p{
+
+    position: relative;
+
+    left: 40px;
+
+    word-spacing: 10px;
+
+    nav-left: auto;
+    
+
+    color: rgb(153, 153, 153);
+}
+
+#container{
+
+    display:flex;
+
+    width: 100%;
+
+    height: 100%;
+
+    box-sizing: border-box;
+
+    background-color: #060606;
+
+    
+
+
+}
+
+leftnav{
+
+    width: 50px;
+
+    background-color: #505050;
+    
+    align-content: center;
+
+    text-align: center;
+
+    display: inline-block;
+}
+
+leftnav a{
+
+    width: 500px;
+
+    background-color: #505050;
+    
+    text-align: center;
+
+    display: inline-block;
+    
+}
+
+.move{
+    position: relative;
+
+    top: 10px;
+}
+
+leftside{
+
+    background-color: white;
+
+    width: 200px;
+
+    padding: 10px;
+
+    background-color: #373737;
+
+    transition: width 1s;
+
+    overflow: hidden;
+
+    
+
+}
+
+rightside{
+
+    background-color: #060606;
+
+}
+
+.hide{
+
+    width: 0%;
+
+    transition: width 1s;
+
+}
+
+details{
+    
+
+    padding: 15px;
+
+}
+
+details a{
+
+    color: green;
+
+
+}
+
+#lazy{
+
+    width:200px;
+}
+
+nav{
+
+    background-color: black;
+}
+
+open{
+
+    background-color: #161616;
+
+    width: 100%;
+
+    height: 30px;
+
+    text-decoration-color: teal;
+
+    color: teal;
+
+    
+
+}
+
+open a:hover{
+
+
+
+    color: teal;
+
+    
+}
+
+nav a:link, a:visited{
+
+    min-width:200px;
+    padding: 10px 0 10px 0;
+    display: inline-block;
+    text-align: center;
+
+    color: #373737 ;
+    
+
+
+}
+
+nav a:hover{
+
+    min-width:200px;
+    padding: 10px 0 10px 0;
+    display: inline-block;
+
+    color: #FFFFFF;
+    
+
+
+}
+
+
+
+a:link{
+
+    color: white;
+    text-decoration: none;
+
+    
+
+}
+  
+
+a:visited{
+
+    color: white;
+    text-decoration: none;
+
+}
+
+  
+
+a:hover{
+
+    color: rgb(201, 201, 201);
+    text-decoration: none;
+}
+
+
+
+footer{
+
+    background-color: #0254A0;
+    justify-content: left;
+    width: 100%;
+
+}
+
+.sprite {
+    display: inline-block;
+	background: url('images/sprites.png') no-repeat -385px -311px;
+	width: 12px;
+	height: 11px;
+}
+
+.sprite:hover{
+    display: inline-block;
+   
+	background: url('images/sprites.png') no-repeat -385px -311px;
+	width: 12px;
+	height: 11px;
+}
+
+
+
+
+
+.minifile{
+
+    position: relative;
+
+    top: 10px;
+    
+    display: inline-block;
+	background: url('images/sprites.png') no-repeat -75px -238px;
+	width: 9px;
+	height: 13px;
+}
+
+.minifile:hover{
+    display: inline-block;
+	background: url('images/sprites.png') no-repeat -75px -238px;
+	width: 9px;
+	height: 13px;
+}
+
+
+
+.plus {
+
+    position: relative;
+
+    top: 10px;
+	background: url('images/sprites.png') no-repeat -409px -98px;
+	width: 11px;
+	height: 11px;
+    
+}
+
+
+.bottom {
+
+    position: relative;
+
+    top: 850px;
+	background: url('images/sprites.png') no-repeat -433px -145px;
+	width: 12px;
+	height: 11px;
+}
+  
+  
+
+
+
+
+
+
+
+
+
+
+

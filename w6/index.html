@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Lance Lespinasse">
+    <meta name="description" content="Week 6 Assignment">
+    <title>Week 6 Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        File Edit Help
+    </header>
+    
+    <div id="container">
+
+
+        <leftnav>
+
+            <a id="move" href="#" class="sprite"></a>
+            <br>
+            <a id="move" href="#" class="plus"></a>
+            <br>
+            <a id="move" href="#" class="bottom"></a>
+
+        </leftnav>
+
+        
+
+
+        <leftside>
+
+            <div id="lazy">
+
+                
+                <a href="##">Files</a>
+
+                <details>
+
+                    
+
+                    <a href="#" class="minifile"></a> File 1
+                    <br>
+                    <a href="#" class="minifile"></a> File 2
+                    <br>
+                    <a href="#" class="minifile"></a> File 3
+                    
+
+                    
+
+                </details>
+
+                
+                <a href="###">Other Stuff</a>
+
+                <details>
+
+                    <a href="#" class="minifile"></a> Stuff 1
+                    <br>
+                    <a href="#" class="minifile"></a> Stuff 2
+                    <br>
+                    
+                </details>
+
+
+
+            </div>
+
+        </leftside>
+
+
+        <rightside>
+
+            <nav> 
+
+                <a href="#">Tab 1</a>
+
+                <a href="#">Tab 2</a>
+
+                <a href="#">Tab 3</a>
+
+            
+
+            </nav>
+
+            <open>
+
+                <a href="#">SE 137</a> >>
+
+                <a href="#">W6</a> >>
+
+                <a href="#">Homework</a> >>
+
+                <a href="#" id="file"></a>
+
+
+            </open>
+            
+            
+            
+           
+
+        </rightside>
+
+
+
+
+
+    </div>      <!--End of container div-->
+
+    <footer>
+        Text Goes Here
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+    <!--SCRIPT START-->
+
+
+    <script>
+
+        var button = document.querySelector(`a[href="#"]`);
+
+        button.addEventListener(`click`, hide);
+
+        function hide(e)
+        {
+            e.preventDefault();
+            
+            button.parentElement.parentElement.classList.toggle(`hide`);
+        }
+
+
+
+
+
+
+        var button2 = document.querySelector(`a[href="##"]`);
+
+        button2.addEventListener(`click`, hide);
+
+        function hide(e)
+        {
+            e.preventDefault();
+            
+            button2.parentElement.parentElement.classList.toggle(`hide`);
+        }
+
+
+
+        var button3 = document.querySelector(`a[href="###"]`);
+
+        button3.addEventListener(`click`, hide);
+
+        function hide(e)
+        {
+            e.preventDefault();
+            
+            button3.parentElement.parentElement.classList.toggle(`hide`);
+        }
+
+
+      
+
+
+
+    
+        var tabs = document.querySelectorAll(`nav a`);
+
+        for(let i=0; i< tabs.length; i++)
+        {
+            tabs[i].addEventListener(`click`, highlight)
+        }
+
+        function highlight(e)
+        {
+            e.preventDefault();
+
+            tabs[0].style.backgroundColor=`#373737`;
+
+            tabs[1].style.backgroundColor=`#373737`;
+
+            tabs[2].style.backgroundColor=`#373737`;
+
+            e.target.style.backgroundColor=`#161616`;
+
+            document.querySelector(`#file`).innerHTML = e.target.innerHTML;
+
+
+
+        }
+
+
+
+
+
+
+
+        
+
+        
+
+    </script>
+
+
+    <!--SCRIPT STOP-->
+    
+</body>
+</html>
