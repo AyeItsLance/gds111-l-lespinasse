@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body{
+    background-color: black;
+    transition: all 1s;
+
+    color: white;
+}
+
+
+@media (max-width:1000px){
+
+    body{
+
+        background-color: red;
+        transition: all 1s;
+
+
+    }
+
+
+}
+
+@media (max-width:600px){
+
+    body{
+
+        background-color: orange;
+        transition: all 1s;
+    }
+
+
+}
+
+
+    
