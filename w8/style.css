@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+html, body{
+
+    height:100vh;
+    margin:0;
+    display:grid;
+
+}
+
+
+
+.container{
+    
+    background-color: grey;
+}
+
+
+#nav{
+
+    background-color: rgb(54, 54, 54);
+    height: 60px;
+}
+
+#footer{
+
+    background-color: rgb(54, 54, 54);
+    height: 96px;
+}
+
+
+
+
+
+
+#hero{
+
+    height: 400px;
+
+    align-self: center;
+
+
+   
+
+    background-color: black;
+}
+
+#rows{
+    
+    text-align: center;
+
+    height: 200px;
+}
+
+
+
+
+.liluzi{
+
+    align-self: center;
+
+    height: 300px;
+
+    display: block;
+
+    margin-left: auto;
+
+    margin-right: auto;
+    
+    width: 50%;
+
+}
