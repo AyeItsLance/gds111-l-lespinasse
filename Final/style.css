@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+
+html, body{
+
+    height:100vh;
+    margin:0;
+    display:grid;
+
+    background-color: gray;
+
+}
+
+
+h1{
+    text-align: center;
+
+    font-family: monospace;
+
+    color: white;
+}
+
+
+
+
+
+.container{
+
+    height: 10px;
+
+
+
+    background-color: grey;
+}
+
+#nav{
+
+    background-color: rgb(54, 54, 54);
+    height: 60px;
+
+    width: 10px;
+}
+
+#header{
+
+    background-color: black;
+
+    height: 60px;
+
+    width: 20px;
+}
